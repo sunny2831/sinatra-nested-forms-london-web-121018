@@ -1,4 +1,4 @@
-describe "FormsLab::App" do
+# describe "FormsLab::App" do
   describe "GET '/'" do
     before(:each) do
       get '/'
@@ -12,7 +12,7 @@ describe "FormsLab::App" do
       expect(last_response.body).to include("Welcome to the Nested Forms Lab!")
       expect(last_response.body).to include("let's navigate to the '/new'")
     end
-  end
+  # end
 
   describe "GET '/new'" do
     before(:each) do
